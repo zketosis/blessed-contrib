@@ -22,7 +22,7 @@ var screen = blessed.screen(),
 screen.append(statusbar);
 screen.append(body);
 
-screen.title = "La pizza de Don Cangrejo.";
+screen.title = "La pizza de Don Cangrejo si muy feliz.";
 //create layout and widgets
 
 var grid = new contrib.grid({ rows: 12, cols: 12, screen: screen });
